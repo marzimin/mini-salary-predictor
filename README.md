@@ -49,9 +49,9 @@ Similar models to the above for cities are ran for both the cover & tvec methods
 
 Despite the models not all doing that well in terms of scores, there perhaps could be some use for the best performer, of which I’ve identified to be the CVEC gradient boosting model. It has:
 
-- CV Mean Score: 0.7562850557049559
+- CV Mean Score: 0.7563
 - Accuracy: 75.4673%
-- Log Loss: 0.5519492435465978
+- Log Loss: 0.552
 
 These metrics can help alongside the confusion matrix & classification reports, which show us that the model is more likely to misclassify higher paying jobs as low paying, which can be beneficial as opposed to the other way around. So even with an imperfect accuracy, it’s a sly way to keep your customers/clients happy & improve customer retention by predicting that they’ll get a lower paying job but in actuality getting a higher paying one. Your marketing team could spin that to a selling point e.g. “We’re more conservative with your prospects compared to others”, or something like that.
 
